@@ -1,100 +1,76 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-900">
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-purple-900 to-purple-700 text-white py-28 px-6">
-        <div className="mx-auto max-w-5xl text-center">
-          <h1 className="text-5xl font-bold tracking-tight">Hamrawi Intelligence</h1>
-          <p className="mt-6 text-xl leading-relaxed">
-            Engineering Intelligent Solutions through AI, Automation, and Modern Web Technologies.
-          </p>
+    <main className="min-h-screen bg-gray-50 text-gray-900">
 
-          <div className="mt-10 flex items-center justify-center gap-4">
-            <a
-              href="#contact"
-              className="rounded-lg bg-white px-6 py-3 font-semibold text-purple-900 hover:bg-gray-100"
-            >
-              Request a Consultation
-            </a>
-            <a
-              href="#services"
-              className="rounded-lg border border-white/40 px-6 py-3 font-semibold hover:bg-white/10"
-            >
+      {/* Hero Section */}
+      <section className="bg-gradient-to-r from-purple-800 to-indigo-700 text-white py-24 px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <h1 className="text-5xl font-bold mb-6">
+            Hamrawi Intelligence
+          </h1>
+          <p className="text-xl mb-8">
+            AI Solutions That Save Time, Increase Revenue, and Automate Growth.
+          </p>
+          <div className="space-x-4">
+            <button className="bg-white text-purple-800 px-6 py-3 rounded-lg font-semibold">
+              Get Free Consultation
+            </button>
+            <button className="border border-white px-6 py-3 rounded-lg">
               View Services
-            </a>
+            </button>
           </div>
         </div>
       </section>
 
       {/* Services */}
-      <section id="services" className="py-20 px-6">
-        <div className="mx-auto max-w-6xl">
-          <h2 className="text-center text-3xl font-bold text-purple-900">Services</h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-lg text-gray-600">
-            Practical, high-quality solutions built with a consulting mindset and engineered for scale.
-          </p>
-
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
-            <div className="rounded-xl border p-6 shadow-sm hover:shadow-md transition">
-              <h3 className="text-xl font-semibold">AI Automation</h3>
-              <p className="mt-3 text-gray-600">
-                Automate workflows, customer support, and internal operations using AI-first systems.
-              </p>
-            </div>
-
-            <div className="rounded-xl border p-6 shadow-sm hover:shadow-md transition">
-              <h3 className="text-xl font-semibold">Web Development</h3>
-              <p className="mt-3 text-gray-600">
-                Modern websites and landing pages built for performance, security, and credibility.
-              </p>
-            </div>
-
-            <div className="rounded-xl border p-6 shadow-sm hover:shadow-md transition">
-              <h3 className="text-xl font-semibold">Business Intelligence</h3>
-              <p className="mt-3 text-gray-600">
-                Dashboards and analytics that turn data into decisions, strategy, and growth.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* About */}
-      <section className="bg-gray-50 py-20 px-6">
-        <div className="mx-auto max-w-5xl text-center">
-          <h2 className="text-3xl font-bold text-purple-900">About</h2>
-          <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-            Hamrawi Intelligence is inspired by the meaning of “Hamrawi” (ሐምራዊ) — purple — a color created
-            by combining red (ambition) and blue (logic). That fusion represents how we work: disciplined
-            engineering paired with creative problem-solving to deliver intelligent systems.
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto text-center mb-16">
+          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+          <p className="text-gray-600">
+            Practical AI and automation solutions built for real business growth.
           </p>
         </div>
-      </section>
 
-      {/* Contact */}
-      <section id="contact" className="py-20 px-6">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold text-purple-900">Contact</h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Want to work together? Send a message and I’ll reply within 24–48 hours.
-          </p>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-          <div className="mt-10 rounded-xl border p-6 text-left shadow-sm">
-            <p className="font-semibold">Email</p>
-            <p className="text-gray-700">hello@hamrawiintelligence.com (set up after launch)</p>
-
-            <p className="mt-6 font-semibold">For now</p>
-            <p className="text-gray-700">
-              Use your personal email in the contact button or add a simple form later.
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold mb-4">AI Resume Optimization</h3>
+            <p>
+              Optimize resumes using AI-driven keyword analysis to pass ATS systems and improve interview chances.
             </p>
           </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold mb-4">Business Automation</h3>
+            <p>
+              Automate workflows, scheduling, CRM, and internal processes to reduce manual work and increase efficiency.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold mb-4">AI Chatbot Setup</h3>
+            <p>
+              Custom chatbots for websites and messaging platforms to capture leads and support customers 24/7.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold mb-4">Data Analysis</h3>
+            <p>
+              Transform business data into dashboards and actionable insights for smarter decision making.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-md">
+            <h3 className="text-xl font-semibold mb-4">Website + AI Integration</h3>
+            <p>
+              Modern websites integrated with AI APIs, automation tools, and performance optimization.
+            </p>
+          </div>
+
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-purple-900 py-8 text-center text-white">
-        © {new Date().getFullYear()} Hamrawi Intelligence. All rights reserved.
-      </footer>
     </main>
   );
 }
